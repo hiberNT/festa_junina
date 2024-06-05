@@ -1,0 +1,35 @@
+@use 'hero';
+@use 'event';
+@use 'components/infos_bar';
+@use 'components/button.scss';
+@use 'footer';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Rampart One", sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.start {
+    padding: 48px 20px;
+
+    background-image: linear-gradient(#6b0000cd,#A00000);
+
+    &__title{
+        text-align: center;
+        &--border{
+            border: 2px solid #EAAB25;
+            border-radius: 50px;
+            padding: 16px;
+        }
+    }
+}

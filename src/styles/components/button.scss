@@ -1,0 +1,22 @@
+.button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    color: black;
+    background-color: #a00000e2;
+
+    @media (max-width:640px) {
+        display: block;
+        text-align: center;
+        margin-top: 16px;
+        padding: 8px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    @media (max-width:1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
